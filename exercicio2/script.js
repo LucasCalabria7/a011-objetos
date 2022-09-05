@@ -13,3 +13,11 @@ const filme = {
 };
 
 // respostas aqui ⬇️
+let elenco = filme.elenco;
+console.log(elenco[0]);       //Exercício A
+
+console.log(elenco[elenco.length-1]);       //Exercício B
+
+console.log(filme.transmissoesHoje);    //Exercício C
+
+console.log(filme.transmissoesHoje[1].horario);    //Exercício D
